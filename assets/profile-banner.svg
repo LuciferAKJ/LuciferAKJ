@@ -1,45 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-  <title id="title">Aditya — software developer</title>
-  <desc id="desc">A dark, terminal-inspired banner with a subtle grid, cyan accent lines, and the phrase building useful software.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="0.55" stop-color="#101827"/>
-      <stop offset="1" stop-color="#0b1720"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#70e1d1" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#70e1d1" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#9b8cff" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#8aa3b8" stroke-opacity="0.08" stroke-width="1"/>
-    </pattern>
-    <radialGradient id="orb">
-      <stop offset="0" stop-color="#70e1d1" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#70e1d1" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1200" height="330" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="330" rx="20" fill="url(#grid)"/>
-  <circle cx="1010" cy="158" r="245" fill="url(#orb)"/>
-  <path d="M0 270H1200" stroke="#70e1d1" stroke-opacity="0.18"/>
-  <path d="M64 270H640" stroke="url(#glow)" stroke-width="2"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="66" y="58" fill="#70e1d1" font-size="13" letter-spacing="3">LUCIFERAKJ  /  ENGINEERING LOG</text>
-    <text x="64" y="151" fill="#f3f7fb" font-size="58" font-weight="700" letter-spacing="-2">Hey, I'm Aditya.</text>
-    <text x="68" y="198" fill="#b8c7d8" font-size="21">I build useful software, one system at a time.</text>
-    <text x="68" y="242" fill="#70e1d1" font-size="13" letter-spacing="2">FULL-STACK  ·  BACKEND  ·  EXPERIMENTATION</text>
-    <text x="1115" y="58" text-anchor="end" fill="#8494a8" font-size="12">SYS//001</text>
-    <text x="1115" y="300" text-anchor="end" fill="#8494a8" font-size="11">BUILD  /  BREAK  /  LEARN</text>
-  </g>
-  <g transform="translate(905 105)" fill="none" stroke="#70e1d1" stroke-width="1.5" opacity="0.75">
-    <rect x="0" y="0" width="205" height="128" rx="10" stroke-opacity="0.35"/>
-    <path d="M16 24H189" stroke-opacity="0.3"/>
-    <circle cx="18" cy="13" r="3" fill="#70e1d1" stroke="none"/>
-    <circle cx="30" cy="13" r="3" fill="#9b8cff" stroke="none"/>
-    <circle cx="42" cy="13" r="3" fill="#d5a76b" stroke="none"/>
-    <path d="M22 53l10 8-10 8M42 69h35M22 88h70M22 105h48" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M110 52h72M110 69h52M110 88h62M110 105h36" stroke-opacity="0.5" stroke-linecap="round"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Aditya — Engineering Portfolio</title>
+<desc id="desc">Dark editorial profile banner with restrained teal accents and abstract technical linework.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1118"/><stop offset="1" stop-color="#131f2b"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#70d6c5"/><stop offset="1" stop-color="#c4a477"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8fa2b4" stroke-opacity=".075"/></pattern>
+  <clipPath id="right"><rect x="760" y="0" width="440" height="340"/></clipPath>
+</defs>
+<rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="340" rx="18" fill="url(#grid)"/>
+<rect width="7" height="340" rx="3" fill="url(#accent)"/>
+<path d="M58 42H1142M58 296H1142" stroke="#90a4b7" stroke-opacity=".22"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="62" y="76" fill="#70d6c5" font-size="13" font-weight="700" letter-spacing="3">LUCIFERAKJ / SOFTWARE DEVELOPMENT</text>
+  <text x="58" y="174" fill="#f1f4f7" font-size="75" font-weight="750" letter-spacing="3">ADITYA</text>
+  <rect x="62" y="198" width="76" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="62" y="239" fill="#d5dee7" font-size="25" font-weight="500">Building thoughtful software.</text>
+  <text x="62" y="270" fill="#91a2b3" font-size="12" font-weight="600" letter-spacing="2.2">FULL-STACK · BACKEND SYSTEMS · DATA-DRIVEN PRODUCTS</text>
+  <text x="62" y="322" fill="#748596" font-size="10" letter-spacing="2">SELECTED WORK / CONTINUOUS LEARNING</text>
+</g>
+<g clip-path="url(#right)" fill="none">
+  <circle cx="980" cy="166" r="122" stroke="#70d6c5" stroke-opacity=".36" stroke-width="1.2"/>
+  <circle cx="980" cy="166" r="93" stroke="#70d6c5" stroke-opacity=".25"/>
+  <circle cx="980" cy="166" r="63" stroke="#c4a477" stroke-opacity=".48"/>
+  <circle cx="980" cy="166" r="26" stroke="#70d6c5" stroke-opacity=".65" stroke-width="1.4"/>
+  <path d="M818 166H1145M980 34V298" stroke="#91a2b3" stroke-opacity=".22" stroke-dasharray="3 7"/>
+  <path d="M893 79L1067 253M1067 79L893 253" stroke="#91a2b3" stroke-opacity=".13"/>
+  <path d="M980 166L1086 90" stroke="url(#accent)" stroke-width="2"/>
+  <circle cx="1086" cy="90" r="4" fill="#70d6c5" stroke="none"/>
+  <circle cx="902" cy="230" r="3" fill="#c4a477" stroke="none"/>
+  <circle cx="1052" cy="241" r="2.5" fill="#70d6c5" stroke="none"/>
+  <path d="M1110 56h32M1126 40v32" stroke="#70d6c5" stroke-opacity=".65"/>
+  <path d="M850 265h24M862 253v24" stroke="#c4a477" stroke-opacity=".65"/>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" fill="#8294a6">
+  <text x="1090" y="309" text-anchor="end">AKJ / 001</text>
+  <text x="1090" y="28" text-anchor="end" fill="#70d6c5">ENGINEERING PORTFOLIO</text>
+</g>
 </svg>
